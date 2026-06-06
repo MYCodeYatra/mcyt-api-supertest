@@ -1,13 +1,14 @@
-# 🚀 Api Supertest Automation Repository
+# 🚀 API Supertest Automation Repository
 
-Welcome to the **Api Supertest** repository! This project serves as the centralized code base for mastering automation testing, infrastructure, or scripting using **Typescript**.
+Welcome to the **API Supertest** repository! This project serves as the centralized codebase for mastering API test automation using **TypeScript**, **Jest**, and **SuperTest**.
 
 ## 📖 Overview
-This repository contains the source code, examples, and test scripts associated with the MyCodeYatra learning series. It is designed to be a practical, hands-on environment for trying out framework capabilities, running test suites, and exploring design patterns.
+This repository contains the source code, test examples, and CI/CD pipelines associated with the MyCodeYatra learning series. It acts as a practical, hands-on environment to test REST APIs, understand design patterns, and generate coverage reports.
 
 ## 🛠️ Technology Stack
-- **Language**: Typescript
-- **Framework Target**: Api Supertest
+- **Language**: TypeScript
+- **Testing Framework**: Jest
+- **API Testing Library**: SuperTest
 
 ## 🚀 Getting Started
 
@@ -19,15 +20,23 @@ This repository contains the source code, examples, and test scripts associated 
    ```bash
    cd mcyt-api-supertest
    ```
-3. **Follow specific language setup:**
-   - For Java/Kotlin/Scala: Use Maven/Gradle to resolve dependencies.
-   - For Python: Set up a virtual environment and `pip install -r requirements.txt`.
-   - For TypeScript/Node: Run `npm install`.
-   - For C#: Run `dotnet restore`.
-   - For Ruby: Run `bundle install`.
+3. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Run the Tests:**
+   ```bash
+   npm test
+   ```
+5. **Run the Tests with Coverage:**
+   ```bash
+   npm test -- --coverage
+   ```
 
 ## 📂 Project Structure
-The repository is structured to follow industry standard best practices for Typescript projects, ensuring code is cleanly separated between source logic and testing artifacts.
+- `src/` - The Express API source code.
+- `tests/` - All the Jest test suites utilizing SuperTest.
+- `.github/workflows/` - CI/CD pipeline definitions for GitHub Actions.
 
 ---
 *Happy Testing! Powered by MyCodeYatra.*

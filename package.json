@@ -1,11 +1,32 @@
 {
   "name": "mcyt-api-supertest",
   "version": "1.0.0",
-  "description": "",
+  "description": "Welcome to the **Api Supertest** repository! This project serves as the centralized code base for mastering automation testing, infrastructure, or scripting using **Typescript**.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.9.2",
+    "@types/supertest": "^7.2.0",
+    "@types/ws": "^8.18.1",
+    "express": "^5.2.1",
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2",
+    "ts-jest": "^29.4.11",
+    "typescript": "^6.0.3",
+    "ws": "^8.21.0"
+  },
+  "dependencies": {
+    "axios": "^1.17.0"
+  }
 }
